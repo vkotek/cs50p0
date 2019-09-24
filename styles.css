@@ -1,0 +1,24 @@
+a, a:hover {
+    color: black;
+    text-decoration: none;
+}
+#header::before {
+    content: "> ";
+}
+#header {
+    letter-spacing: -3px;
+}
+@media only screen and (max-width:720px) {
+    .container {
+        max-width: 100%;
+    }
+}
+.hidden {
+    display: none;
+}
+.center {
+    text-align: center;
+}
+.spinner-border {
+    margin: 30% 0 1em 50%;
+}
