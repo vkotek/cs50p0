@@ -5,9 +5,58 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <link rel="stylesheer" href="styles.css">
+<style>
+a, a:hover {
+    color: black;
+    text-decoration: none;
+}
+.menu a::before {
+    content: "<";
+}
+.menu a::after, #header::before {
+    content: ">";
+}
+#header {
+    letter-spacing: -3px;
+}
+.menu ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 2px;
+    border-bottom: 4px solid black;
+    padding: 4px 8px;
+    background-color: #fff;
+}
+.menu li:hover {
+    border-bottom: 4px solid blue;
+}
+.menu .selected{
+    background-color: #00000014;
+}
+@media {
+    
+}
+</style>
 </head>
 <body>
+<div class="container">
 <h1 id="header">This is the header.</h1>
+<div class="menu">
+    <ul>
+        <li class="selected"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>  
 <img class="logo" src="static/img.jpg">
+</div>
 </body>
 </html>
