@@ -1,4 +1,3 @@
-/* RGB */
 $color1: rgba(184, 51, 106, 1);
 $color2: rgba(114, 109, 168, 1);
 $color3: rgba(125, 140, 196, 1);
@@ -8,6 +7,24 @@ $color5: rgba(196, 144, 209, 1);
 $primary_color: $color1;
 $secondary_color: $color2;
 
+.navbar-light {
+    .navbar-nav {
+        .nav-link.active {
+            color: $color1;
+        }
+        .nav-link {
+            color: $color3;
+        }
+        .nav-link:hover {
+            color: $color5;
+        }
+    }
+}
+
+body {
+    background-color: $color4;
+    color: $color1;
+}
 body::selection {
     color: $secondary_color;
     background-color: $primary_color;

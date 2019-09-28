@@ -1,4 +1,18 @@
-/* RGB */
+.navbar-light .navbar-nav .nav-link.active {
+  color: #b8336a;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #7d8cc4;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #c490d1;
+}
+
+body {
+  background-color: #a0d2db;
+  color: #b8336a;
+}
+
 body::selection {
   color: #726da8;
   background-color: #b8336a;
