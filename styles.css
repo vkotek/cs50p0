@@ -1,24 +1,43 @@
+/* RGB */
+body::selection {
+  color: #726da8;
+  background-color: #b8336a;
+}
+
 a, a:hover {
-    color: black;
-    text-decoration: none;
+  color: #b8336a;
+  text-decoration: none;
 }
+
 #header::before {
-    content: "> ";
+  content: "> ";
 }
+
 #header {
-    letter-spacing: -3px;
+  letter-spacing: -3px;
+  color: #b8336a;
 }
-@media only screen and (max-width:720px) {
-    .container {
-        max-width: 100%;
-    }
+
+p {
+  color: #726da8;
 }
+
 .hidden {
-    display: none;
+  display: none;
 }
+
 .center {
-    text-align: center;
+  text-align: center;
 }
+
 .spinner-border {
-    margin: 20% 0 1em 50%;
+  margin: 20% 0 1em 50%;
 }
+
+@media only screen and (max-width: 720px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
