@@ -1,0 +1,59 @@
+$color1: rgba(184, 51, 106, 1);
+$color2: rgba(114, 109, 168, 1);
+$color3: rgba(125, 140, 196, 1);
+$color4: rgba(160, 210, 219, 1);
+$color5: rgba(196, 144, 209, 1);
+
+$primary_color: $color1;
+$secondary_color: $color2;
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link.active {
+            color: $color1;
+        }
+        .nav-link {
+            color: $color3;
+        }
+        .nav-link:hover {
+            color: $color5;
+        }
+    }
+}
+
+body {
+    background-color: $color4;
+    color: $color1;
+}
+body::selection {
+    color: $secondary_color;
+    background-color: $primary_color;
+}
+a, a:hover {
+    color: $primary_color;
+    text-decoration: none;
+}
+#header::before {
+    content: "> ";
+}
+#header {
+    letter-spacing: -3px;
+    color: $primary_color;
+}
+p {
+    color: $secondary_color;
+}
+.hidden {
+    display: none;
+}
+.center {
+    text-align: center;
+}
+.spinner-border {
+    margin: 20% 0 1em 50%;
+}
+@media only screen and (max-width:720px) {
+    .container {
+        max-width: 100%;
+    }
+}
