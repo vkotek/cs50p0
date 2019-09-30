@@ -1,3 +1,8 @@
+.cool-font, body {
+  color: black;
+  font-style: "comic-sans";
+}
+
 .navbar-light .navbar-nav .nav-link.active {
   color: #b8336a;
 }
@@ -51,6 +56,10 @@ p {
 @media only screen and (max-width: 720px) {
   .container {
     max-width: 100%;
+  }
+
+  #header {
+    color: #7d8cc4;
   }
 }
 
