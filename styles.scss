@@ -7,6 +7,11 @@ $color5: rgba(196, 144, 209, 1);
 $primary_color: $color1;
 $secondary_color: $color2;
 
+.cool-font {
+  color: black;
+  font-style: 'comic-sans';
+}
+
 .navbar-light {
     .navbar-nav {
         .nav-link.active {
@@ -22,6 +27,7 @@ $secondary_color: $color2;
 }
 
 body {
+    @extend .cool-font;
     background-color: $color4;
     color: $color1;
 }
@@ -55,5 +61,8 @@ p {
 @media only screen and (max-width:720px) {
     .container {
         max-width: 100%;
+    }
+    #header {
+      color: $color3;
     }
 }
