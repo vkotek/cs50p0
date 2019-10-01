@@ -1,6 +1,6 @@
 # vkotek
 
-This website consists of four pages, and uses bootstrap4 and sass.
+This repository contains my submission for Project 0, the first project of CS50 course by HarvardX. This project touches on HTML, CSS, Sass, Bootstrap4, and Git basics.
 
 ## Home | index.html
 
@@ -21,3 +21,4 @@ If you really want to, you can find out how to find me here.
 ## styles.scss / styles.css.map / styles.css
 
 Styling for the website in the SASS CSS format, a mapping file, and the CSS file read by the browsers.
+
